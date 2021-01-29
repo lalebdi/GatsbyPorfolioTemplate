@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+.contact-section {
+  padding: 40px 0;
+}
+.contact-section h1 {
+  text-align: center;
+  color: #ddd;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 40px;
+  outline: none;
+  color: #888;
+  transition: 0.5s;
+  border-radius: 0.35em;
+}
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px#ffc107;
+}
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #fed136;
+  color: #212529;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.contact-form-btn:hover {
+  background: #28a745;
+  color: white;
+}
